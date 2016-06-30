@@ -47,6 +47,7 @@ p
 {
     float: right;
     background-attachment: fixed;
+
     box-shadow: 2px 2px 2px gray;
 }
 
@@ -55,29 +56,49 @@ p
     clear: both;
 }
 
-
-#middle
-{
-	display : flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-#detail
-{
-	display : flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;  
-}
-
 body
 {
-	display : flex;
-    flex-direction: row; 
     background: url("images/fondecran.jpg");
     background-attachment: fixed;
 }
 
+#liseret
+{
+    display: none;
+}
+
+@media screen and (min-width: 1024px)
+{
+    #middle
+    {
+        display : flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    #detail
+    {
+        display : flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;  
+    }
+
+    #liseret
+    {
+        display:flex;
+        border: 2px solid gray;
+        min-height: 100vh;
+        border-radius: 20px;
+        background: url("images/neige.jpg");
+    }
+
+    body
+    {
+        display : flex;
+        flex-direction: row; 
+    }
+
+}
 
 
