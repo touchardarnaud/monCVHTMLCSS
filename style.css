@@ -1,0 +1,65 @@
+
+h1
+{
+    text-align: center;
+
+}
+
+h1 + p
+{
+	font-size: 1em;
+    text-align: center;
+	font-family: 'ambleregular', "Arial Black", Arial, Verdana, sans-serif;
+	font-style:italic;
+	font-weight:bold;
+}
+
+
+h3
+{
+    text-align: center;
+    opacity: 0.8;
+    font-family: 'ambleregular', "Arial Black", Arial, Verdana, sans-serif;
+    color: brown;
+
+}
+
+h2
+{
+    text-align: center;
+    opacity: 0.8;
+    border: 2px solid black;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 20px;
+    text-shadow: 3px 3px 2px gray;
+    font-family: 'ambleregular', "Arial Black", Arial, Verdana, sans-serif;
+    color: brown;
+
+}
+
+p
+{
+    text-align: justify;
+    font-family: "Helvetica Neue", "du Century Gothic"
+}
+
+.myPicture
+{
+    float: right;
+    background-attachment: fixed;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.nonFlotant
+{
+    clear: both;
+}    
+
+body
+{
+    background: url("images/fondecran.jpg");
+    background-attachment: fixed;
+}
+
+
+
