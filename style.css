@@ -53,10 +53,28 @@ p
 .nonFlotant
 {
     clear: both;
-}    
+}
+
+
+#middle
+{
+	display : flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#detail
+{
+	display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
 
 body
 {
+	display : flex;
+    flex-direction: row; 
     background: url("images/fondecran.jpg");
     background-attachment: fixed;
 }
